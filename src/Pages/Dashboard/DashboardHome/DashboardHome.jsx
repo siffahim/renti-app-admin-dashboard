@@ -9,7 +9,7 @@ import { MdCarRental } from "react-icons/md";
 import { SlRefresh } from "react-icons/sl";
 import InvoiceTable from "./InvoiceTable";
 import MostRentCarChart from "./MostRentCarChart";
-import DailyRentChart from "./dailyRentChart";
+import DailyRentChart from "./DailyRentChart";
 
 function DashboardHome() {
   const onChange = (pageNumber) => {
