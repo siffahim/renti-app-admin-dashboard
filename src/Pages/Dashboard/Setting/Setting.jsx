@@ -143,7 +143,7 @@ const Setting = () => {
   };
 
   const handleNotification = (e) => {
-    console.log(e);
+    return e;
   };
 
   const setPercentage = () => {
@@ -152,7 +152,7 @@ const Setting = () => {
   };
 
   const handleChangePassword = (values) => {
-    console.log("Received values of form: ", values);
+    return values;
   };
 
   return (

@@ -1,16 +1,19 @@
 import { LockOutlined, MailOutlined } from "@ant-design/icons";
 import { Button, Checkbox, Form, Input } from "antd";
 import React from "react";
-import { useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router-dom";
 import logo from "../../Images/Logo.png";
 import style from "./Signin.module.css";
 
 const Signin = () => {
-  const onFinish = (values) => {
-    console.log("Received values of form: ", values);
-  };
-
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const onFinish = (values) => {
+    window.localStorage.setItem("renti_admin_auth", "true");
+    const redirectPath = location.state?.from?.pathname || "/";
+    navigate(redirectPath, { replace: true });
+  };
 
   const handleForget = () => {
     navigate("/forget-password");
