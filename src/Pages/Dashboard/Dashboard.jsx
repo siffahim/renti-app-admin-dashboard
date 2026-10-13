@@ -6,7 +6,7 @@ import { Divider } from "antd";
 import { GiReceiveMoney } from "react-icons/gi";
 import { MdCarRental, MdPayment, MdPeopleOutline } from "react-icons/md";
 import { RxDashboard } from "react-icons/rx";
-import { GoPeople } from "./../../../node_modules/react-icons/go/index.esm";
+import { GoPeople } from "react-icons/go";
 
 import { RiUserSearchLine } from "react-icons/ri";
 

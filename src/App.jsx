@@ -5,7 +5,7 @@ import DashboardHome from "./Pages/Dashboard/DashboardHome/DashboardHome";
 import Earning from "./Pages/Dashboard/Earning/Earning";
 import HostInfo from "./Pages/Dashboard/HostInfo/HostInfo";
 import HostRequest from "./Pages/Dashboard/HostInfo/HostRequest";
-import KycForm from "./Pages/Dashboard/Kyc/KycForm";
+import KycForm from "./Pages/Dashboard/KYC/KycForm";
 import Notification from "./Pages/Dashboard/Notification/Notification";
 import RentInformation from "./Pages/Dashboard/RentInformation/RentInformation";
 import UserInfo from "./Pages/Dashboard/UserInfo/UserInfo";
